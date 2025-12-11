@@ -1,5 +1,10 @@
 package singleton;
 
-public class SingletonEnum {
-    
+public enum SingletonEnum {
+    INSTANCE;
+
+    private SingletonEnum() {
+        System.out.println("INIT ENUM SINGLETON");
+    }
+
 }

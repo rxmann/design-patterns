@@ -1,14 +1,14 @@
-import singleton.EagerSingletonGoF;
+import singleton.SingletonEnum;
 
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        EagerSingletonGoF esgof1 = EagerSingletonGoF.getInstance();
-        EagerSingletonGoF esgof2 = EagerSingletonGoF.getInstance();
+        SingletonEnum esgof1 = SingletonEnum.INSTANCE;
+        SingletonEnum esgof2 = SingletonEnum.INSTANCE;
 
-        System.out.println("EagerSingletonGoF hash 1: " + esgof1.hashCode());
-        System.out.println("EagerSingletonGoF hash 2: " + esgof2.hashCode());
+        System.out.println("SingletonEnum hash 1: " + esgof1.hashCode());
+        System.out.println("SingletonEnum hash 2: " + esgof2.hashCode());
 
     }
 }
