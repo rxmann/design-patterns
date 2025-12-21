@@ -1,4 +1,4 @@
-﻿package adapter.adaptee;
+package adapter.adaptee;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.impl;
+package singleton.final_logging.com.example.logging.impl;
 
 import java.io.FileWriter;
 import java.io.IOException;

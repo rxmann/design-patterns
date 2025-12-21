@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.demo;
+package singleton.final_logging.com.example.logging.demo;
 
 import singleton.final_logging.com.example.logging.core.Logger;
 import singleton.final_logging.com.example.logging.decorators.HostnameDecorator;

@@ -1,4 +1,4 @@
-﻿package singleton;
+package singleton;
 
 class SingletonGoFThreadSafe {
     private static SingletonGoFThreadSafe instance;

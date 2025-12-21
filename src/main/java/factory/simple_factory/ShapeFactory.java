@@ -1,4 +1,4 @@
-﻿package factory.simple_factory;
+package factory.simple_factory;
 
 public class ShapeFactory {
 

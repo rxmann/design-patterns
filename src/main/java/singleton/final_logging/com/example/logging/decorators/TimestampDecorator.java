@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.decorators;
+package singleton.final_logging.com.example.logging.decorators;
 
 import java.time.LocalDateTime;
 

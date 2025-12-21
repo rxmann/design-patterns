@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.server;
+package singleton.final_logging.com.example.logging.server;
 
 import singleton.final_logging.com.example.logging.impl.FileLogger;
 import singleton.final_logging.com.example.logging.singleton.SingletonLogger;

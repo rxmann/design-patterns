@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.impl;
+package singleton.final_logging.com.example.logging.impl;
 
 // Necessary imports for networking and IO operations
 import java.io.BufferedWriter;

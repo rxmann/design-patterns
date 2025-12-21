@@ -1,4 +1,4 @@
-﻿// Define the package this class belongs to.
+// Define the package this class belongs to.
 package singleton.final_logging.com.example.logging.server;
 
 import java.io.BufferedReader;

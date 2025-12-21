@@ -1,4 +1,4 @@
-﻿package adapter.factory;
+package adapter.factory;
 
 import java.rmi.UnexpectedException;
 

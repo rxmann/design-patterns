@@ -1,0 +1,23 @@
+# Gradle build directories
+/build/
+/out/
+/bin/
+/.gradle/
+
+# VS Code settings
+.vscode/
+
+# Gradle wrapper files (optional to ignore, but wrapper scripts are often committed)
+# gradlew
+# gradlew.bat
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: IntelliJ IDEA files if you ever open in IDEA
+.idea/
+*.iml

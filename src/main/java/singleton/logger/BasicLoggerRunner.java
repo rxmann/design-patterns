@@ -1,4 +1,4 @@
-﻿package singleton.logger;
+package singleton.logger;
 
 public class BasicLoggerRunner {
     public static void main(String[] args) {

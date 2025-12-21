@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.impl;
+package singleton.final_logging.com.example.logging.impl;
 
 import singleton.final_logging.com.example.logging.core.Logger;
 

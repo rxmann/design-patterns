@@ -1,4 +1,4 @@
-﻿package singleton;
+package singleton;
 
 public class EagerSingletonGoF {
     private static EagerSingletonGoF instance = new EagerSingletonGoF();

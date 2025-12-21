@@ -1,4 +1,4 @@
-﻿package adapter.target;
+package adapter.target;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-﻿package factory;
+package factory;
 
 import factory.gof_factory.CircleCreator;
 import factory.gof_factory.NotCircleCreator;

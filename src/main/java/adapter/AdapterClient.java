@@ -1,4 +1,4 @@
-﻿package adapter;
+package adapter;
 
 import java.rmi.UnexpectedException;
 import java.util.List;
@@ -40,4 +40,3 @@ public class AdapterClient {
     }
 
 }
-

@@ -1,7 +1,11 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
+application {
+    mainClass = 'adapter.AdapterClient' // full package name
+}
 
 repositories {
     mavenCentral()
@@ -11,3 +15,8 @@ dependencies {
    implementation("com.fasterxml.jackson.core:jackson-databind:2.0.1")
 }
 
+
+tasks.register('runAdapter', JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'adapter.AdapterClient'
+}

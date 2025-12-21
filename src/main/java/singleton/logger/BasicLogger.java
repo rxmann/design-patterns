@@ -1,4 +1,4 @@
-﻿package singleton.logger;
+package singleton.logger;
 
 import java.io.FileWriter;
 import java.io.IOException;

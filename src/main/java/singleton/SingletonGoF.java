@@ -1,4 +1,4 @@
-﻿package singleton;
+package singleton;
 
 public class SingletonGoF {
     private static SingletonGoF instance = null;

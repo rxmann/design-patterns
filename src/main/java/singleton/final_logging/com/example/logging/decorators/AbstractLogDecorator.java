@@ -1,4 +1,4 @@
-﻿package singleton.final_logging.com.example.logging.decorators;
+package singleton.final_logging.com.example.logging.decorators;
 
 import singleton.final_logging.com.example.logging.core.Logger;
 
