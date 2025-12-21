@@ -1,15 +1,17 @@
 package builder;
 
+import builder.User.UserBuilder;
+
 public class UserDirector {
 
-    public User buildKathmanduUser(String fn, String ln, String email) {
-        return new User.UserBuilder(fn, ln, email)
+    public static User buildKathmanduUser(UserBuilder usb) {
+        return usb
                 .address("Kathmandu")
                 .build();
     }
 
-    public User buildRamechhapUser(String fn, String ln, String email) {
-        return new User.UserBuilder(fn, ln, email)
+    public static User buildRamechhapUser(UserBuilder usb) {
+        return usb
                 .address("Ramechhap")
                 .build();
     }

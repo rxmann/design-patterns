@@ -1,15 +1,18 @@
 package builder;
 
+import builder.User.UserBuilder;
+
 public class Builder {
 
     public static void main(String args[]) {
-        UserDirector director = new UserDirector();
 
-        User ktmUser = director.buildKathmanduUser(
-                "Ram", "Shrestha", "ram@ktm.com");
+        UserBuilder ktmUserBuilder = new UserBuilder("Ram", "Shrestha", "ram@ktm.com");
 
-        User ramechhapUser = director.buildRamechhapUser(
-                "Sita", "Karki", "sita@ramechhap.com");
+        User ktmUser = UserDirector.buildKathmanduUser(ktmUserBuilder);
+
+        UserBuilder rmchpUserBuilder = new UserBuilder("Sita", "Karki", "sita@ramechhap.com");
+
+        User ramechhapUser = UserDirector.buildRamechhapUser(rmchpUserBuilder);
 
         System.out.println(ktmUser.getAddress());
         System.out.println(ramechhapUser.getAddress());
