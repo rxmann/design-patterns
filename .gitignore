@@ -5,6 +5,7 @@
 /.gradle/
 
 # VS Code settings
+.gradle/
 .vscode/
 
 # Gradle wrapper files (optional to ignore, but wrapper scripts are often committed)
