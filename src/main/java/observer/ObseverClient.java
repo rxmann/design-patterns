@@ -34,6 +34,19 @@ public class ObseverClient {
 
     public static void main(String[] args) {
 
+        ChatRoom chatServer = new ChatRoom();
+
+        ChatUser user1 = new ChatUserImpl("roman");
+        ChatUser user2 = new ChatUserImpl("rohan");
+
+        chatServer.registerUser(user1);
+
+        chatServer.notifyUsers("Hi from main.");
+
+        chatServer.registerUser(user2);
+
+        chatServer.notifyUsers("Hi from main again.");
+
     }
 
 }
