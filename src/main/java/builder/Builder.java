@@ -2,6 +2,10 @@ package builder;
 
 import builder.User.UserBuilder;
 
+/*
+ * Builder constructs a complex object step-by-step, separating construction from representation,
+ * so the same process can create different forms of a single object.
+ */
 public class Builder {
 
     public static void main(String args[]) {
