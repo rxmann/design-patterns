@@ -1,31 +1,28 @@
 package chain_of_responsibility;
 
-
-import chain_of_responsibility.handler.BaseApprover;
+import chain_of_responsibility.builder.ApprovalChainFactory;
+import chain_of_responsibility.handler.ApprovalHandler;
 import chain_of_responsibility.model.PurchaseLevel;
 import chain_of_responsibility.model.PurchaseOrder;
 
-/**
- * NOTES
- * Chain Of Responsibility
- * This is a behavioral design pattern that lets you pass requests along a chain of handlers. Each handler decide whether to process or pass the request to next handler in the chain.
-*
- */
 public class CoRTest {
     public static void main(String[] args) {
-        // 1. Initialize the chain with a single call
-        BaseApprover chain = BaseApprover.getApprovalChain();
+        ApprovalHandler chain = ApprovalChainFactory.createChain();
 
-        // 2. Create requests
-        PurchaseOrder medOrder = new PurchaseOrder("New Laptops", PurchaseLevel.MEDIUM);
-        PurchaseOrder highOrder = new PurchaseOrder("Mainframe Server", PurchaseLevel.HIGH);
+        PurchaseOrder med = new PurchaseOrder("Laptops", PurchaseLevel.MEDIUM);
+        PurchaseOrder high = new PurchaseOrder("Server", PurchaseLevel.HIGH);
+        PurchaseOrder low = new PurchaseOrder("pipe", PurchaseLevel.LOW);
 
-        System.out.println("--- Processing Medium Order ---");
-        chain.processRequest(medOrder);
-        System.out.println(medOrder);
+        System.out.println("\n--- LOW ---");
+        chain.handle(low);
+        System.out.println(low);
 
-        System.out.println("\n--- Processing High Order ---");
-        chain.processRequest(highOrder);
-        System.out.println(highOrder);
+        System.out.println("\n--- MEDIUM ---");
+        chain.handle(med);
+        System.out.println(med);
+
+        System.out.println("\n--- HIGH ---");
+        chain.handle(high);
+        System.out.println(high);
     }
 }
