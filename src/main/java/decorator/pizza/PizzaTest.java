@@ -1,7 +1,6 @@
 package decorator.pizza;
 
 import decorator.pizza.component.Pizza;
-import decorator.pizza.component.impl.PlainPizza;
 import decorator.pizza.component.impl.ThinCrustPizza;
 import decorator.pizza.decorator.impl.CheeseTopping;
 import decorator.pizza.decorator.impl.ChickenTopping;
